@@ -1,6 +1,8 @@
 # dentist-system-azure
 Dentist management System Azure Cloud and Spring Boot
 
+@ https://dentistsystem.azurewebsites.net/api/v1/patient/
+
 # Authentication
 ![image](https://github.com/poojakumari11228/dentist-system-azure/assets/35136890/49936167-dc6e-4734-b649-dcad8454bc33)
 
