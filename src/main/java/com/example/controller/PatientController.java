@@ -31,7 +31,12 @@ public class PatientController {
     PatientController(PatientService patientService){
         this.patientService = patientService;
     }
-
+    
+    @GetMapping("/test")
+    public ResponseEntity<String> testPatients(){
+        return ResponseEntity.ok("Hello World!");
+    }
+    
     @GetMapping
     public ResponseEntity<List<PatientResponse>> findPatients(){
         return ResponseEntity.ok(patientService.getPatients());
