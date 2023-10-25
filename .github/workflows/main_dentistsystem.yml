@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'DentistSystem'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D43DC308511F459EA70275A6F2873879 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F69DA589A1654BC6956035B2FA6A9CF3 }}
           package: '*.jar'
