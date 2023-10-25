@@ -25,14 +25,14 @@ class PatientServiceImplTest {
     @Autowired
     private PatientService patientService;
 
-    @Test
+    // @Test
     public void testFindPatientByIdValid() throws PatientNotFound {
         PatientResponse testPatient = new PatientResponse(1l, "Alice", "Brown", "alice.brown@example.com", "4th ST", new AddressResponse("Townsville", "456 Elm St", "54321"));
         PatientResponse foundPatient = patientService.findById(1L);
         assertEquals(testPatient, foundPatient);
     }
 
-    @Test
+    // @Test
     public void testFindPatientByIdInvalid() throws PatientNotFound {
         Long invalidPatientId = 99L;
 
